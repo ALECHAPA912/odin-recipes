@@ -1,0 +1,1 @@
+Este es mi primer proyecto del curso The Odin Project, que se va a basar en crear una pagina web de recetas (creo).
