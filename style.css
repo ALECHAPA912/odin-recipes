@@ -2,6 +2,63 @@
     font-family: Helvetica, sans-serif;
 }
 
+body {
+    margin: 20px;
+    padding: 0;
+    border: 0;
+}
+
+.homepage-container,
+.intro-container,
+.ingredients-container,
+.prep-container {
+    width: 1280px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border: 3px;
+    border-style: groove;
+}
+
+.homepage-container h1 {
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+.homepage-container img {
+    display: block;
+    margin: auto;
+}
+
+.homepage-container li {
+    color: black;
+    list-style: none;
+    text-align: center;
+}
+
+.intro-container h1 {
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+.intro-container img {
+    display: block;
+    margin: 20px auto;
+    border: 3px;
+    border-color: black;
+    border-style: groove;
+}
+
+.intro-container p {
+    background-color: rgb(206, 206, 206);
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+}
+
 h1 {
     font-size: 100px;
     font-weight: bolder;
@@ -12,16 +69,14 @@ h1 {
 h2 {
     font-size: 50px;
     font-weight: bolder;
-    color: lightgreen;
+    color:black;
     text-decoration: underline;
+    text-align: center;
 }
 
 ul {
-    background-color: greenyellow;
-}
-
-ol {
-    background-color: aquamarine;
+    text-align: center;
+    list-style: none;
 }
 
 li {
